@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+:root { --bg:#f6f7f5; --card:#ffffff; --ink:#182018; --muted:#687168; --line:#e6e9e4; --accent:#1f6b45; }
+* { box-sizing:border-box; }
+html, body { margin:0; padding:0; background:var(--bg); color:var(--ink); font-family:Arial, Helvetica, sans-serif; }
+button, input, select { font:inherit; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:18px; }
